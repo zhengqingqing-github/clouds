@@ -1,4 +1,4 @@
-package com.example.cloudconfigclient3355.config;
+package com.example.cloudconfigclient.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
