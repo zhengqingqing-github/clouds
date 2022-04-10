@@ -9,9 +9,11 @@ spring:
       server:
         git:
           uri: https://github.com/zhengqingqing-github/mygithub.git
+          default-label: master
           search-paths:
             - config-dev.yml
-          label: main
+
+
 
 eureka:
   client:

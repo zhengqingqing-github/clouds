@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config-center" />
         <module name="eureka-server" />
+        <module name="cloud-config-client-3355" />
         <module name="clouds" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-config-center" target="1.8" />
+      <module name="cloud-config-client-3355" target="1.8" />
       <module name="clouds" target="1.8" />
       <module name="eureka-server" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-config-center" options="-parameters" />
+      <module name="cloud-config-client-3355" options="-parameters" />
       <module name="clouds" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
